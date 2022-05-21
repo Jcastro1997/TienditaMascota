@@ -29,7 +29,7 @@ export default {
   },
   watch: {
     information(newValue) {
-      console.log("watch", newValue);
+      // console.log("watch", newValue);
       if (newValue) {
         this.informations = newValue;
       }

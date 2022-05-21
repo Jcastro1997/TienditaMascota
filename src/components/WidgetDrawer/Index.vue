@@ -74,7 +74,7 @@ export default {
       this.items = newValue;
     },
     items(newValue) {
-      console.log(newValue);
+      // console.log(newValue);
       if(newValue){
         let sumaTotal = newValue.map(item => item.price).reduce((prev,curr) => prev + curr, 0)
         this.total = sumaTotal

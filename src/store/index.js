@@ -18,7 +18,7 @@ export default new Vuex.Store({
   mutations: {
     setIdCategory(state, val){
       state.idCategory = val
-      console.log("ID",val)
+      // console.log("ID",val)
     },
     setPaymentItems(state, value) {
       state.paymentItems.push(value);

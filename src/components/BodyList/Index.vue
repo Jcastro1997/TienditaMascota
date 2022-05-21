@@ -130,7 +130,7 @@ export default {
     async listadoProductos() {
       const data = await getProductos();
       this.items = data.data;
-      console.log(data);
+      // console.log(data);
     },
     openModalInfo(item) {
       this.$store.commit("setModalInfo", true);

@@ -40,10 +40,10 @@ export default {
     async listaCategorias() {
       const data = await getCategorias();
       this.categorias = data.data;
-      console.log("listCategorias", data);
+      // console.log("listCategorias", data);
     },
     sendIdCategory(item){
-      console.log("items",item)
+      // console.log("items",item)
       this.setIdCategory(item.id)
     }
   },
